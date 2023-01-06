@@ -11,7 +11,7 @@ swagger = Swagger(app)
 
 #Setting up my mongoDB database using mongo engine
 database_name = "API"
-DB_URI = f"mongodb+srv://chibuoyim:Chiboy17@cluster0.bfuycr8.mongodb.net/{database_name}?retryWrites=true&w=majority"
+DB_URI = f"mongodb+srv://usercrud:12345@cluster0.zkfyq.mongodb.net/usercrud?retryWrites=true&w=majority"
 app.config["MONGODB_HOST"] = DB_URI
 
 db = MongoEngine()
